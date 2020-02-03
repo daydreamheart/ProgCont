@@ -2,6 +2,7 @@
 [ProgCont](https://progcont.hu/) solutions. 
 
 ## Magas szintű programozási nyelvek 1.
+  - [x] [2014. március 12., Sz18](https://progcont.hu/progcont/100035/) (4/4)
   - [x] [2014. március 12., Sz16](https://progcont.hu/progcont/100034/) (4/4)
   - [x] [2014. március 12., Sz14](https://progcont.hu/progcont/100033/) (4/4)
   - [x] [2014. március 12., Sz10](https://progcont.hu/progcont/100032/) (4/4)
