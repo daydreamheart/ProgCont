@@ -7,12 +7,14 @@ int main()
     char str[102];
     int length;
 
-    while(1) {
+    while(1)
+    {
 
         gets(str);
         length = strlen(str);
 
-        if(str[length-1] == '!' && str[length-2] == '!' && str[length-3] == '!') {
+        if(str[length-1] == '!' && str[length-2] == '!' && str[length-3] == '!')
+        {
             printf("%s\n", str);
             return 0;
         }
