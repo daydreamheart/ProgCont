@@ -12,10 +12,9 @@ int main()
                 hour = 12;
 
             if(min < 10)
-            {
                 printf("%d.0%dam\n", hour, min);
-            }
-            else printf("%d.%dam\n", hour, min);
+            else 
+		printf("%d.%dam\n", hour, min);
         }
         else
         {
@@ -23,10 +22,9 @@ int main()
                 hour -= 12;
 
             if(min < 10)
-            {
                 printf("%d.0%dpm\n", hour, min);
-            }
-            else printf("%d.%dpm\n", hour, min);
+            else 
+		printf("%d.%dpm\n", hour, min);
         }
 
     }

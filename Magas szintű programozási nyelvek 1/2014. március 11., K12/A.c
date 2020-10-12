@@ -19,7 +19,8 @@ int main()
                 printf(">\n");
             else if(num1 < num2)
                 printf("<\n");
-            else printf("=\n");
+            else 
+		printf("=\n");
         }
     }
 

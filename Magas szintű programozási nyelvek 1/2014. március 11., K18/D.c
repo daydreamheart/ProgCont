@@ -4,21 +4,22 @@
 int main()
 {
 
-    char str[52];
+    char str[22];
 
     while(gets(str))
     {
-        if(strlen(str) == 0)
+        if(strcmp(str, "THE END") == 0)
             return 0;
         else
         {
-            int space = 1;
+            int space = 0;
 
             for(int i = 0; i < strlen(str); i++)
                 if(str[i] == ' ')
                     space++;
 
-            printf("%d\n", space);
+            if(space == 0 && strlen(str) >= 10)
+                puts(str);
 
         }
 

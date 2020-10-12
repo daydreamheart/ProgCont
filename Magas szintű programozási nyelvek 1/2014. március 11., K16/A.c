@@ -16,7 +16,8 @@ int main()
                 printf(">\n");
             else if(((h1 * 60) + m1) < ((h2 * 60) + m2))
                 printf("<\n");
-            else printf("=\n");
+            else 
+		printf("=\n");
 
         }
     }
